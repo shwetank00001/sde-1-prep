@@ -1,0 +1,36 @@
+
+.main{
+    border: 2px solid black;
+    margin: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    align-items: center;
+    padding: 1%;
+
+}
+.photeSize {
+    width: 180px;
+    height: 180px;
+    transform: rotate(-90deg);
+}
+
+.mainList {
+    text-decoration: none;
+    padding: 1%;
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.lists > li {
+    padding: 10px;
+}
